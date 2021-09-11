@@ -1,5 +1,8 @@
 #![no_std]
 
+pub mod rasterizer;
+pub mod serializer;
+
 #[cfg(test)]
 mod tests {
     #[test]
