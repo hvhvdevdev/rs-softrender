@@ -1,7 +1,7 @@
 pub mod rasterizer;
 pub mod serializer;
 
-pub struct Pixel {
+pub struct PixelRGB {
     pub r: f32,
     pub g: f32,
     pub b: f32,
@@ -15,7 +15,7 @@ pub struct Point2D {
 pub struct Image {
     pub width: u16,
     pub height: u16,
-    pub data: Vec<Pixel>,
+    pub data: Vec<PixelRGB>,
 }
 
 #[cfg(test)]
