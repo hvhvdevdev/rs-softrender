@@ -7,6 +7,11 @@ pub struct Pixel {
     pub b: f32,
 }
 
+pub struct Point2D {
+    pub x: f32,
+    pub y: f32,
+}
+
 pub struct Image {
     pub width: u16,
     pub height: u16,
